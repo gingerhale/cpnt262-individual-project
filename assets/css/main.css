@@ -1,87 +1,110 @@
 body {
   /* typography */
   line-height: 1.7;
+
   /* box model */
   margin: 0;
 
   /* display type */
   display: block;
 
-    /* typography */
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* typography */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
-
-
 }
 
+/* background styling */
 .background {
+  /* position */
   background-image: url('/assets/images/retail-store.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
+  /* dimensions */
   width: 100vw;
   height: 100vh;
+
+  /* padding to push chart div down */
   padding-top: 2rem;
 }
 
 .chartDiv {
+  /* background transparency */
+  background: rgba(0, 0, 0, 0.6);
+
+  /* box modle */
+  margin: 0 auto;
+  padding: 2rem;
+
   /* flexbox */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
+  /* transparent background width */
   max-width: 120ch;
-  margin: 0 auto;
-
-  background: rgba(0, 0, 0, 0.6);
-  padding: 2rem;
 }
 
+/* chart header */
 h1 {
   max-width: 30ch;
   text-align: center;
 }
+
+/* chart */
 canvas {
+  /* chart background */
   background: rgba(255, 255, 255, 0.8);
 
+  /* box model */
   padding: 2rem;
 
+  /* dimensions */
   max-width: 100ch;
   max-height: 60ch;
 
+  /* border */
   border: 3px solid crimson;
   border-radius: 1rem;
-
 }
 
+/* error message */
 .error {
+  /* background */
   background-image: url(/assets/images/sad-paperbag-guy.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
+  /* dimensions */
   width: 100vw;
   height: 100vh;
 
-  text-align: center;
-  font-size: 24px;
-
+  /* flex box */
   display: flex;
   flex-direction: column;
-  justify-content:flex-end;
+  justify-content: flex-end;
 
+  /* typography */
+  font-size: 24px;
+  text-align: center;
 }
 
+/* error message text */
 .errorText {
-  color: white;
+  /* background */
   background: rgba(0, 0, 0, 0.8);
+
+  /* box model */
   margin: 0 auto;
   padding: 1rem;
   margin-bottom: 4rem;
+
+  /* border */
   border: 3px solid red;
   border-radius: 1rem;
 }

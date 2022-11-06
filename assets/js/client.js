@@ -1,3 +1,5 @@
+'use strict';
+
 let nameLabel = [], ageData = [], yearsRegisteredData = []
 
 async function myChart() {
@@ -6,7 +8,7 @@ async function myChart() {
 
     const ctx = document.getElementById('chart').getContext('2d');
     const xLabels = []
-    const myChart = new Chart(ctx, {
+    const chart = new Chart(ctx, {
         type: 'bar',
 
         data: {
