@@ -74,7 +74,7 @@ canvas {
 /* error message */
 .error {
   /* background */
-  background-image: url(/assets/images/sad-paperbag-guy.jpg);
+  background-image: url("../images/sad-paperbag-guy.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
