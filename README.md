@@ -4,7 +4,7 @@
 - GH Pages: 
 
 ## Above and Beyond
-- Higher order funcion - .map() (client.js lines: 50-52) 
+- Higher order funcion - .map( ) (client.js lines: 50-52) 
 
 ## Attributes 
 - The Code Angle -  "Chart JS for Beginners | Working With A Rest API Using JavaScript" - https://www.youtube.com/watch?v=FtZwJZB0xb8 
