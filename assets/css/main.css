@@ -32,7 +32,7 @@ body {
 
 .chartDiv {
   /* background transparency */
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
 
   /* box modle */
   margin: 0 auto;
@@ -45,7 +45,7 @@ body {
   align-items: center;
 
   /* transparent background width */
-  max-width: 120ch;
+  max-width: 100ch;
 }
 
 /* chart header */
@@ -57,18 +57,22 @@ h1 {
 /* chart */
 canvas {
   /* chart background */
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.95);
 
   /* box model */
   padding: 2rem;
 
   /* dimensions */
-  max-width: 100ch;
-  max-height: 60ch;
+  max-width: 80ch;
+  max-height: 45ch;
 
   /* border */
   border: 3px solid crimson;
   border-radius: 1rem;
+}
+
+.chartFooter {
+  font-size: 20px;
 }
 
 /* error message */
