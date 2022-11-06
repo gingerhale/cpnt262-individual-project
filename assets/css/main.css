@@ -1,0 +1,87 @@
+body {
+  /* typography */
+  line-height: 1.7;
+  /* box model */
+  margin: 0;
+
+  /* display type */
+  display: block;
+
+    /* typography */
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+
+
+}
+
+.background {
+  background-image: url('/assets/images/retail-store.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  width: 100vw;
+  height: 100vh;
+  padding-top: 2rem;
+}
+
+.chartDiv {
+  /* flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 120ch;
+  margin: 0 auto;
+
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+}
+
+h1 {
+  max-width: 30ch;
+  text-align: center;
+}
+canvas {
+  background: rgba(255, 255, 255, 0.8);
+
+  padding: 2rem;
+
+  max-width: 100ch;
+  max-height: 60ch;
+
+  border: 3px solid crimson;
+  border-radius: 1rem;
+
+}
+
+.error {
+  background-image: url(/assets/images/sad-paperbag-guy.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  width: 100vw;
+  height: 100vh;
+
+  text-align: center;
+  font-size: 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+
+}
+
+.errorText {
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  margin: 0 auto;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  border: 3px solid red;
+  border-radius: 1rem;
+}
