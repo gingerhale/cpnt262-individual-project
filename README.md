@@ -1,7 +1,7 @@
 # cpnt262
 - Individual Project - Fetching API Data
 - Haley Dickson
-- GH Pages: 
+- GH Pages: https://gingerhale.github.io/cpnt262-individual-project/
 
 ## Above and Beyond
 - Higher order funcion - .map( ) (client.js lines: 50-52) 
